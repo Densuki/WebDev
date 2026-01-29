@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "TITLE": "Sites para Testes e Estudos - Densuki",
+    "DESCRIPTION": "Repositório oficial para estudos e testes de desenvolvimento web",
+    "KEYWORDS": "programação, estudos, web, desenvolvimento, densuki",
+    "AUTHOR": "Densuki (YukiriDensuki)",
+    "THEME_COLOR": "#2563eb"
+  },
+  
+  "seo": {
+    "CANONICAL_URL": "https://densuki.github.io/WebDev/"
+  },
+  
+  "openGraph": {
+    "SITE_NAME": "Densuki DevLab",
+    "SOCIAL_TITLE": "Densuki - Laboratório de Desenvolvimento Web",
+    "SOCIAL_DESCRIPTION": "Explore projetos, tutoriais e experimentos em desenvolvimento web",
+    "SOCIAL_IMAGE": "https://densuki.github.io/WebDev/assets/images/og-image.png",
+    "SOCIAL_IMAGE_ALT": "Densuki Development Lab",
+    "PAGE_URL": "https://densuki.github.io/WebDev/",
+    "ISO_DATE": "auto",
+    "SLACK_APP_ID": ""
+  },
+  
+  "twitter": {
+    "TWITTER_SITE": "@densuki_dev",
+    "TWITTER_CREATOR": "@yukiridensuki",
+    "DOMAIN": "densuki.github.io"
+  },
+  
+  "facebook": {
+    "FACEBOOK_APP_ID": "",
+    "FACEBOOK_AUTHOR": "https://facebook.com/densuki",
+    "FACEBOOK_PUBLISHER": "https://facebook.com/densuki",
+    "ARTICLE_SECTION": "Tecnologia",
+    "ARTICLE_TAGS": "programação, estudos, web development",
+    "PUBLISHED_TIME": "auto",
+    "MODIFIED_TIME": "auto"
+  },
+  
+  "social": {
+    "LINKEDIN_OWNER": "Densuki",
+    "APP_NAME": "Densuki App"
+  },
+  
+  "content": {
+    "NAME": "YukiriDensuki",
+    "EMAIL": "yukiridensuki@gmail.com",
+    "SHOW_EXTRA": true,
+    "SKILLS": ["JavaScript", "Node.js", "HTML/CSS", "Python"],
+    "TITLE_PAGE": "Bem-vindo ao Densuki DevLab 🚀",
+    "CONTENT": "Aqui você encontra projetos, experimentos e tutoriais sobre desenvolvimento web. Fique à vontade para explorar!",
+    "YEARS": "auto"
+  }
+}

@@ -20,16 +20,21 @@
   "license": "ISC",
   "author": "Densuki",
   "type": "commonjs",
-  "main": "assets/js/index.js",
+  "main": "./assets/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node .",
-    "dev": "nodemon .",
+    "start": "node ./assets/js/index.js",
+    "dev": "nodemon ./assets/js/index.js",
+    "watch": "nodemon ./assets/js/index.js",
+    "placeholder_update": "node ./assets/js/update_site.js --update",
+    "placeholder_check": "node ./assets/js/update_site.js --check",
+    "placeholder_interactive": "node ./assets/js/update_site.js",
     "stop": "killall node"
   },
   "dependencies": {
     "ejs": "^4.0.1",
     "handlebars": "^4.7.8",
-    "mustache": "^4.2.0"
+    "mustache": "^4.2.0",
+    "nodemon": "^3.1.11"
   }
 }

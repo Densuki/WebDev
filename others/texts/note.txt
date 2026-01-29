@@ -1,0 +1,18 @@
+const config = {
+    // Título e descrição
+    '{{TITLE}}': 'Meu Novo Título',
+    '{{DESCRIPTION}}': 'Minha nova descrição...',
+    
+    // SEO
+    '{{CANONICAL_URL}}': 'https://meusite.com',
+    
+    // Redes sociais
+    '{{SOCIAL_TITLE}}': 'Título para compartilhar',
+    '{{SOCIAL_DESCRIPTION}}': 'Descrição para compartilhar',
+    '{{SOCIAL_IMAGE}}': 'https://meusite.com/imagem.png',
+    
+    // Conteúdo da página
+    '{{TITLE_PAGE}}': 'Meu Novo Título da Página',
+    '{{CONTENT}}': 'Novo conteúdo aqui...',
+    '{{YEARS}}': `2024-${new Date().getFullYear()}`
+};
