@@ -1,0 +1,35 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "Repositório de um site para estudos e testes",
+  "keywords": [
+    "Estudos",
+    "Web",
+    "Developer",
+    "Site",
+    "Testes"
+  ],
+  "homepage": "https://github.com/Densuki/WebDev#readme",
+  "bugs": {
+    "url": "https://github.com/Densuki/WebDev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Densuki/WebDev.git"
+  },
+  "license": "ISC",
+  "author": "Densuki",
+  "type": "commonjs",
+  "main": "assets/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon .",
+    "stop": "killall node"
+  },
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "handlebars": "^4.7.8",
+    "mustache": "^4.2.0"
+  }
+}
