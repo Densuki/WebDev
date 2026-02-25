@@ -1,0 +1,70 @@
+# version: '3.8'
+
+services:
+  dev:
+    image: mcr.microsoft.com/vscode/devcontainers/python:3.12-bullseye
+    container_name: etheriuscraft-network_site
+    user: vscode
+    tty: true
+    volumes:
+      - ..:/workspace:cached
+    working_dir: /workspace
+    command: sleep infinity
+    ports:
+      - "3000:3000" # React
+      - "8000:8000" # Python backend
+      - "5432:5432" # PostgreSQL
+      - "3306:3306" # MySQL
+      - "27017:27017" # MongoDB
+    environment:
+      - PYTHONUNBUFFERED=1
+      - NODE_ENV=development
+    # depends_on: []
+    # depends_on:
+    #   - mongo
+    #   - postgres
+    #   - mysql
+
+  # mongo:
+  #   image: mongo:7
+  #   container_name: etheriuscraft-mongo
+  #   restart: unless-stopped
+  #   ports:
+  #     - "27017:27017"
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: root
+  #     MONGO_INITDB_ROOT_PASSWORD: example
+  #   volumes:
+  #     - mongo_data:/data/db
+
+  # postgres:
+  #   image: postgres:16
+  #   container_name: etheriuscraft-postgres
+  #   restart: unless-stopped
+  #   ports:
+  #     - "5432:5432"
+  #   environment:
+  #     POSTGRES_USER: user
+  #     POSTGRES_PASSWORD: password
+  #     POSTGRES_DB: etheriuscraft
+  #   volumes:
+  #     - pg_data:/var/lib/postgresql/data
+
+  # mysql:
+  #   image: mysql:8.1
+  #   container_name: etheriuscraft-mysql
+  #   restart: unless-stopped
+  #   ports:
+  #     - "3306:3306"
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: rootpass
+  #     MYSQL_DATABASE: etheriuscraft
+  #     MYSQL_USER: user
+  #     MYSQL_PASSWORD: password
+  #   volumes:
+  #     - mysql_data:/var/lib/mysql
+
+volumes:
+  mongo_data:
+  pg_data:
+  mysql_data:

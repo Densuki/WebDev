@@ -12,7 +12,7 @@ class PlaceholdersClient {
   async init() {
     try {
       // Carrega configurações (se estiverem disponíveis)
-      const response = await fetch('/assets/json/placeholders.json');
+      const response = await fetch('./json/placeholders.json');
       this.data = await response.json();
       this.applyDynamicContent();
     } catch (error) {

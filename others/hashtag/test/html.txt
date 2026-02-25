@@ -1,0 +1,14 @@
+- O que é o HTML?
+  HyperText Markup Language
+
+- Estrutura básica do HTML (<!DOCTYPE html>, <html>, <head>, <body>).
+	Incluindo metadados no <head>
+
+- Elementos essenciais:
+	Títulos (<h1> a <h6>).
+	Parágrafos (<p>).
+	Links (<a>).
+	Imagens (<img>).
+	Listas (<ul>, <ol> e <li>).
+
+- Estruturando o conteúdo com <div>, <section>, <header> e <footer>.

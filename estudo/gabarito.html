@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox CSS</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 30px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+      }
+
+      ul {
+        display: flex;
+        gap: 10px;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      a {
+        color: #112e61;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="https://www.hashtagtreinamentos.com/wp-content/uploads/2022/05/Logo-Hashtag-Original-100x45px.png"
+          alt="Logo da Hashtag"
+        />
+        <ul>
+          <li><a href="https://www.hashtagtreinamentos.com">Home</a></li>
+          <li><a href="https://www.hashtagtreinamentos.com/blog">Blog</a></li>
+          <li>
+            <a href="https://www.hashtagtreinamentos.com/contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

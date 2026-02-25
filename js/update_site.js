@@ -4,11 +4,12 @@ const path = require('path');
 class SiteUpdater {
   constructor() {
     // ⚠️ CORREÇÃO AQUI:
-    this.baseDir = __dirname; // Isso é /assets/js/
+    this.baseDir = __dirname; // Isso é ./js/
     
-    // O index.html está NA RAIZ, não em /assets/js/
+    // O index.html está NA RAIZ, não em ./js/
     // Suba 2 níveis: /workspaces/WebDev/
-    this.projectRoot = path.join(this.baseDir, '..', '..');
+    // this.projectRoot = path.join(this.baseDir, '..', '..');
+    this.projectRoot = path.join(this.baseDir, '..');
     
     this.htmlFile = path.join(this.projectRoot, 'index.html'); // Agora na raiz!
     this.configFile = path.join(this.projectRoot, 'assets', 'json', 'placeholders.json');

@@ -18,17 +18,17 @@
     "url": "git+https://github.com/Densuki/WebDev.git"
   },
   "license": "ISC",
-  "author": "Densuki",
+  "author": "Densuki, YukiriDensuki",
   "type": "commonjs",
-  "main": "./assets/js/index.js",
+  "main": "./js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./assets/js/index.js",
-    "dev": "nodemon ./assets/js/index.js",
-    "watch": "nodemon ./assets/js/index.js",
-    "placeholder_update": "node ./assets/js/update_site.js --update",
-    "placeholder_check": "node ./assets/js/update_site.js --check",
-    "placeholder_interactive": "node ./assets/js/update_site.js",
+    "start": "node ./js/index.js",
+    "dev": "nodemon ./js/index.js",
+    "watch": "nodemon ./js/index.js",
+    "placeholder_update": "node ./js/update_site.js --update",
+    "placeholder_check": "node ./js/update_site.js --check",
+    "placeholder_interactive": "node ./js/update_site.js",
     "stop": "killall node"
   },
   "dependencies": {
